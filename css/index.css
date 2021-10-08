@@ -169,24 +169,26 @@ h1{
 /* Artist section */
 
 .artists-container{
-    width: 90%;
+    /* width: 90%;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width:100%;
     margin-bottom: 15%;
 }
 
 .artist{
-    width: 100%;
+    width: 70%;
 }
 
 .artist img{
-    width: 45%;
-    height: 14vh;
-    padding: 1% 24%;
+    width: 57%;
+    height: 15vh;
 }
 
  .artist a{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .artists-container .bio{
